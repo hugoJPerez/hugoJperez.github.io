@@ -1,0 +1,10 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+/*16px = 1em*/
+h1{font-size: 40px;
+}
+h2{font-size: 30px;
+}
+p{font-size:14px;
+}

@@ -1,0 +1,127 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    margin-right: 2vw;
+    height: 19%;
+    width: 96%;
+    padding: 2%;
+    /*margin : auto;*/
+    /*border : 1vw solid rgb(82, 243, 243);*/
+    border: 1vw linear-gradient(rgb(188, 240, 247),rgb(113, 186, 247));
+    background:linear-gradient(rgb(188, 240, 247),rgb(113, 186, 247));
+    text-align: center;
+}
+
+nav{
+    height:35%;
+    margin-top : 4%;
+    font-size: 2vw;
+    font-weight : bold;
+    color : black;
+    background:linear-gradient(rgb(230, 240, 172),rgb(192, 250, 116));
+
+}
+a {
+    height: 90%;
+    color:black;
+    /*text-decoration: none;  para sacar el subrayado a los links */
+    margin-left: 1%;
+}
+
+
+section{  background-size: auto 100%;
+    background:linear-gradient(rgb(250, 177, 108),rgb(248, 144, 26));
+    border-spacing: 5%;
+    border : 10% solid #faa16e;
+    height: 99%;
+    /* display: inline ;*/
+    float : left;
+    width: 95%; /*ancho*/
+    text-align: left;
+    text-indent: 7%;
+    font-size : 2vw;
+    font-weight : bold;
+    color : black;
+    padding: 3%;
+
+
+}
+article{ background-color: cyan;
+    height:auto;
+    float : left;
+    width: 65%; /*ancho*/
+    text-align: left;
+    font-size : 5%;
+    font-weight : bold;
+    color : black;
+    padding: 3%;
+    border-top : 0.45vw solid rgb(127, 238, 238);
+ }
+
+aside {
+    float : right;
+    width : 23%;
+    height: auto;
+    /*
+    margin-right: 1%;
+    margin-bottom : 1%;
+    */
+    /*background-color : rgb(223, 175, 223) ; */
+    background:linear-gradient(rgb(238, 123, 213),rgb(148, 23, 148));
+    text-align: left;
+    font-size : 1.8vw;
+    font-weight : bold;
+    color : black;
+    padding : 3%;
+    /*border-style: ridge;*/
+    border-top : 0.45vw solid #f3b3ee;
+}
+div{
+    background:linear-gradient(rgb(188, 240, 247),rgb(113, 186, 247));
+    border: 5% solid rgb(82, 243, 243);
+    height: 8%;
+    width: 97%; /*ancho*/
+    display: block; /*Valor por defecto*/
+    font-size:2vw;
+}
+
+
+p{
+    border : 18% solid #14b44a;
+    text-align: left;
+    font-size:1.5vw;
+}
+
+footer {
+    clear: both;
+    position: bottom;
+    height: 8%;
+    width: 98%;
+    font-size: 5%;
+    font-style: italic;
+    font-weight : bold;
+    color : black;
+    border : 7px solid rgb(82, 243, 243);
+    background:linear-gradient(rgb(188, 240, 247),rgb(113, 186, 247));
+    text-align: center;
+}
+address {
+    background: #DDD;
+    color: #222;
+    padding: 2px;
+    border: 1px solid #AAA;
+    font-size:2vw;
+}
+
+address:hover {
+    background: rgb(15, 153, 36);
+    color: rgb(253, 229, 111);
+    padding: 8px 14px;
+    border: 1px solid #888;
+
+    transition-property: all; /*a todas las propiedades nombradas*/
+    transition-duration: 0.5s; /*con una duración de 0.5s*/
+    transition-timing-function: ease-in; /*inicio lento, luego normal*/
+}

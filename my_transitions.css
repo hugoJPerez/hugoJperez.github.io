@@ -1,0 +1,17 @@
+div {
+    width: 180px; /*Ancho inicial*/
+    height: 90px;
+    COLOR:YELLOW;
+    
+    background: rgb(77, 5, 202);
+    /*
+    transition-property: width;
+    transition-duration: 3s;
+    */    
+    /* Atajo: Transiciones */
+    transition: width 7s; 
+}
+
+div:hover {
+    width: 900px; /*Ancho al que quiero llegar*/
+}

@@ -1,0 +1,91 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+
+    margin : 160px,15px,20px,30px;
+    height: 99px;
+    width: 950px;
+    padding: 11px;
+    margin : 10px,15px,20px,30px;
+    border : 7px solid rgb(82, 243, 243);
+    background:linear-gradient(rgb(188, 240, 247),rgb(113, 186, 247));
+   
+    text-align: center;
+}
+
+nav{
+    height:27px;
+    margin-top : 72px;
+  /*  background-color:rgb(212, 231, 231); */
+    font-weight : bold;
+    color : black;
+ /*   background:linear-gradient( );*/
+ background:linear-gradient(rgb(230, 240, 172),rgb(192, 250, 116));
+
+}
+a {
+    color:black;
+    /*text-decoration: none;  para sacar el subrayado a los links */
+    margin-left: 50px;
+}
+section{  background-size: auto 75em;
+    background:linear-gradient(rgb(250, 177, 108),rgb(248, 144, 26));
+    border-spacing: 15ppx;
+    border : 7px solid #faa16e;
+    height: 250px;
+    float : left;
+    width: 420px; /*ancho*/
+    text-align: left;
+    text-indent: 90px;
+    font-size : 16px;
+    font-weight : bold;
+    color : black;
+    padding: 11px;
+
+
+}
+article{ background-color: cyan;
+    height: 900px;
+    float : left;
+    width: 456px; /*ancho*/
+    text-align: left;
+    font-size : 16px;
+    font-weight : bold;
+    color : black;
+    padding: 11px;
+    border : 7px solid rgb(127, 238, 238);
+ }
+ 
+aside {
+    float : right;
+    width : 456px;
+    height: 900px;
+    margin-right: 20px;
+    margin-bottom : 15px;
+    /*background-color : rgb(223, 175, 223) ; */
+    background:linear-gradient(rgb(238, 123, 213),rgb(148, 23, 148));
+    text-align: left;
+    font-size : 16px;
+    font-weight : bold;
+    color : black;
+    padding : 11px;
+    border : 7px solid #f3b3ee;
+}
+/* 
+footer{
+    border : 7px solid #14b44a;
+    text-align: left;
+}
+*/
+footer {
+    position: bottom;
+    width: 971px;
+    font-style: italic;
+    font-weight : bold;
+    color : black;
+    border : 7px solid rgb(82, 243, 243);
+    background:linear-gradient(rgb(188, 240, 247),rgb(113, 186, 247));
+    text-align: center; 
+}
